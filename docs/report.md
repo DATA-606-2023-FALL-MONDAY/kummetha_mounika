@@ -4,7 +4,7 @@
 - Author Name : [Mounika Reddy Kummetha]()
 - [Github]()
 - [Linkedin]()
-- [Presentation]()
+- [Presentation](https://docs.google.com/presentation/d/11z2MgFdl-M1OcHvvTpfyTbQWz0W1dVgsHqkfJqaES3Q/edit#slide=id.p)
 - [Presentation Video Link]()
 -
 
