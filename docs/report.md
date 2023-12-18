@@ -350,3 +350,20 @@ The RandomForestClassifier achieved an accuracy of 75.71%, indicating a reasonab
 
 The development of our Recipe Recommendation System, underpinned by meticulous exploratory data analysis and model training, has yielded profound insights into user behaviors and recipe characteristics, vital for crafting personalized culinary experiences. Analysis of user interaction data revealed a predominance of casual users and a preference for highly-rated recipes, suggesting a strategic focus on engaging these users with tailored, high-quality recommendations. The time series analysis highlighted seasonal trends, offering opportunities for timely recipe suggestions. On the technical side, complex patterns in the data, identified through scatter plots, correlation matrices, and heatmaps, emphasized the necessity for advanced machine learning models and nuanced feature engineering. This is particularly evident in the diverse relationships among key features like preparation time and number of ingredients. The project's findings, from user engagement trends to ingredient preferences, are instrumental in refining the recommendation system, ensuring it not only aligns with current user preferences but also remains adaptable to changing culinary trends and tastes.
 
+# 6 . References
+
+### References
+
+1. Koren, Y., Bell, R., & Volinsky, C. (2009). Matrix Factorization Techniques for Recommender Systems. *Computer*, 42(8), 30-37. [https://doi.org/10.1109/MC.2009.263](https://doi.org/10.1109/MC.2009.263)
+
+2. Aggarwal, C. C. (2016). *Recommender Systems: The Textbook*. Springer International Publishing. [https://doi.org/10.1007/978-3-319-29659-3](https://doi.org/10.1007/978-3-319-29659-3)
+
+3. Hastie, T., Tibshirani, R., & Friedman, J. (2009). *The Elements of Statistical Learning: Data Mining, Inference, and Prediction* (2nd ed.). Springer Series in Statistics. Springer New York. [https://doi.org/10.1007/978-0-387-84858-7](https://doi.org/10.1007/978-0-387-84858-7)
+
+4. Tukey, J. W. (1977). *Exploratory Data Analysis*. Addison-Wesley.
+
+5. Wickham, H. (2016). *ggplot2: Elegant Graphics for Data Analysis* (2nd ed.). Springer International Publishing. [https://doi.org/10.1007/978-3-319-24277-4](https://doi.org/10.1007/978-3-319-24277-4)
+
+6. Chollet, F. (2018). *Deep Learning with Python*. Manning Publications.
+
+7. Goodfellow, I., Bengio, Y., & Courville, A. (2016). *Deep Learning*. MIT Press. [http://www.deeplearningbook.org](http://www.deeplearningbook.org)
