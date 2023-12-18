@@ -1,16 +1,13 @@
-# 1.Title and Author
+## 1. Title and Author
+- **Personalized Recipe Recommender System**
+- Prepared for UMBC Data Science Master Degree Capstone by Dr Chaojie (Jay) Wang
+- Author Name : [Mounika Reddy Kummetha]()
+- [Github]()
+- [Linkedin]()
+- [Presentation]()
+- [Presentation Video Link]()
+-
 
-## Project Title
-Personalized Recipe Recommender System
-
-## Prepared for
-UMBC Data Science Master Degree Capstone by Dr. Chaojie (Jay) Wang
-
-## Author Name
-Mounika Reddy Kummetha
-
-## Profiles and Presentations
-- **GitHub Profile:** https://github.com/mounikakummetha
 
 ## 2. Background
 
