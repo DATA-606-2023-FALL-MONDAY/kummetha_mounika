@@ -226,3 +226,74 @@ Key features and predictors that will be used in the machine learning models for
 - **Recipe Categories:** Categories or tags associated with each recipe (such as cuisine type, meal type), which help in categorizing and recommending recipes based on user interests.
 - **User Dietary Restrictions:** Information from user profiles indicating any dietary restrictions or preferences, ensuring recommended recipes are suitable for individual users.
 - **Historical Interaction Data:** Past user interactions including ratings, reviews, and other forms of engagement with recipes. This data helps in understanding user preferences and improving the accuracy of the recommendation system.
+
+
+# Exploratory Data Analysis (EDA) - Recipe Dataset
+
+This document presents a detailed Exploratory Data Analysis (EDA) on a dataset related to recipes. The EDA aims to uncover insights that can aid in enhancing a recipe recommendation system.
+
+## Data Cleaning and Preprocessing
+
+### Handling Missing Values
+- Analysis of missing data in the dataset and steps taken to address these.
+
+### Data Type Conversion
+- Conversion of specific columns to more appropriate data types for effective analysis.
+
+## Descriptive Statistics
+
+### Summary Statistics
+- Basic statistical summaries (mean, median, mode, etc.) of key columns in the dataset.
+
+### Distribution Analysis
+- Examination of the distribution of crucial variables like recipe ratings and preparation time.
+
+![Distribution Analysis](path-to-your-distribution-analysis-image)
+
+## Data Visualization
+
+### Boxplots
+- Visualization of distributions and identification of outliers, especially in user ratings.
+
+![Boxplot of User Ratings](path-to-your-boxplot-image)
+
+### Time Series Analysis
+- Analysis of user interactions over time to identify trends in recipe popularity.
+
+![Time Series Analysis](path-to-your-time-series-analysis-image)
+
+### Bar Charts
+- Displaying top common ingredient replacements and the top 20 ingredients to gain insights into popular choices.
+
+![Bar Chart - Ingredient Analysis](path-to-your-bar-chart-image)
+
+## Correlation Analysis
+
+### Scatter Plots and Correlation Matrices
+- Exploration of relationships between numerical features like number of steps and preparation time.
+
+![Scatter Plot](path-to-your-scatter-plot-image)
+
+### Heatmaps
+- Correlation heatmap to understand the relationships between different features.
+
+![Correlation Heatmap](path-to-your-correlation-heatmap-image)
+
+## Insights for Recipe Recommendation System
+
+### User Ratings
+- Analysis suggests leveraging high user ratings to recommend popular recipes.
+
+### Seasonal Trends
+- Identifying popular recipes during specific times of the year for targeted recommendations.
+
+### Ingredient Analysis
+- Utilizing common ingredient replacements and popular ingredients for recipe suggestions.
+
+### User Engagement Features
+- Determining features that predict user engagement, such as interactions and average user rating.
+
+## Conclusion
+
+This EDA provides valuable insights into user behavior and preferences in relation to recipes. These findings will significantly contribute to the development of a personalized and efficient recipe recommendation system.
+
