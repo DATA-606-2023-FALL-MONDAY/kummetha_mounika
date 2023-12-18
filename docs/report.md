@@ -255,7 +255,7 @@ This document presents a detailed Exploratory Data Analysis (EDA) on a dataset r
 ### Boxplots
 - Visualization of distributions and identification of outliers, especially in user ratings.
 
-![Boxplot of User Ratings](path-to-your-boxplot-image)
+![https://github.com/mounikakummetha/images/blob/main/box.plot.user.ratings.png)
 
 ### Time Series Analysis
 - Analysis of user interactions over time to identify trends in recipe popularity.
