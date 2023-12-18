@@ -260,24 +260,19 @@ This document presents a detailed Exploratory Data Analysis (EDA) on a dataset r
 ### Time Series Analysis
 - Analysis of user interactions over time to identify trends in recipe popularity.
 
-![Time Series Analysis](path-to-your-time-series-analysis-image)
+![Time Series Analysis](https://github.com/mounikakummetha/images/blob/main/Time_series.png)
 
 ### Bar Charts
 - Displaying top common ingredient replacements and the top 20 ingredients to gain insights into popular choices.
 
-![Bar Chart - Ingredient Analysis](path-to-your-bar-chart-image)
+![Bar Chart - Ingredient Analysis](https://github.com/mounikakummetha/images/blob/main/Bar_chart_top_ingredients.png)
 
 ## Correlation Analysis
-
-### Scatter Plots and Correlation Matrices
-- Exploration of relationships between numerical features like number of steps and preparation time.
-
-![Scatter Plot](path-to-your-scatter-plot-image)
 
 ### Heatmaps
 - Correlation heatmap to understand the relationships between different features.
 
-![Correlation Heatmap](path-to-your-correlation-heatmap-image)
+![Correlation Heatmap](https://github.com/mounikakummetha/images/blob/main/heat_map.png)
 
 ## Insights for Recipe Recommendation System
 
