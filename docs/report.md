@@ -306,23 +306,24 @@ The initial step involved preparing the dataset for the modeling process. This i
 df = pd.read_csv('data.csv')
 df.dropna(inplace=True)
 df.drop(['irrelevant_column'], axis=1, inplace=True)
+```
 
-## Step 2: Feature Selection and Splitting the Dataset
-
+### Step 2: Feature Selection and Splitting the Dataset
 After cleaning, the next step was to select relevant features and split the data into training and testing sets.
 
-### Feature Selection
-Features relevant to predicting recipe ratings were identified and isolated. This step is crucial for ensuring that the model receives pertinent information that significantly contributes to the prediction accuracy.
+- **Feature Selection**: Features relevant to predicting recipe ratings were identified and isolated.
+- **Splitting Data**: The dataset was divided into a training set and a testing set.
 
-### Splitting Data
-The dataset was divided into a training set and a testing set. This division allows for effective training of the model on one part of the data (training set) and evaluation of its performance on a separate, unseen part of the data (testing set).
-
-```python
 from sklearn.model_selection import train_test_split
 
-# Selecting features and target variable
-X = df.drop('rating', axis=1)  # Features
-y = df['rating']  # Target variable
+X = df.drop('rating', axis=1)
+y = df['rating']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
 
-# Splitting the dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+### Step 3: Model Training
+The RandomForestClassifier model was selected for its proficiency with tabular data. The training process involved:
+
+Model Instantiation: Creating an instance of the RandomForestClassifier.
+Model Fitting: Fitting the model on the training dataset.
+
+
