@@ -326,4 +326,24 @@ The RandomForestClassifier model was selected for its proficiency with tabular d
 Model Instantiation: Creating an instance of the RandomForestClassifier.
 Model Fitting: Fitting the model on the training dataset.
 
+from sklearn.ensemble import RandomForestClassifier
+
+rf_classifier = RandomForestClassifier()
+rf_classifier.fit(X_train, y_train)
+
+### Step 4: Model Evaluation
+Finally, the model's performance was evaluated using the testing set.
+
+Making Predictions: Using the model to predict ratings on the testing set.
+Evaluating Accuracy: Assessing the model's accuracy to understand its effectiveness.
+
+from sklearn.metrics import accuracy_score
+
+y_pred = rf_classifier.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+print(f"Accuracy: {accuracy:.2%}")
+
+## Conclusion
+The RandomForestClassifier achieved an accuracy of 75.71%, indicating a reasonably good predictive ability. Future improvements may include advanced parameter tuning, feature engineering, and exploring other machine learning algorithms to enhance prediction accuracy.
+
 
