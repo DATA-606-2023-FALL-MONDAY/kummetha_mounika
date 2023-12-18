@@ -292,53 +292,18 @@ This document presents a detailed Exploratory Data Analysis (EDA) on a dataset r
 
 This EDA provides valuable insights into user behavior and preferences in relation to recipes. These findings will significantly contribute to the development of a personalized and efficient recipe recommendation system.
 
-#5. Model Training
+# 5. Model Training Process
 
-# Recipe Rating Prediction Model
+### Step 1: Data Preparation
+The initial step involved preparing the dataset for the modeling process. This included:
 
-## Overview
-
-This project aims to develop a machine learning model to predict the ratings of recipes. The dataset includes various attributes such as preparation time, contributor details, and nutritional information. Our goal is to use these features to accurately forecast recipe ratings.
-
-## Data Loading and Exploration
-
-Initially, we loaded the dataset into a pandas DataFrame to explore its structure and contents. This step is crucial for understanding the data we're working with.
+- **Loading the Data**: The dataset was loaded into a pandas DataFrame.
+- **Data Cleaning**: Irrelevant columns were removed, and missing values were handled.
+- **Data Preprocessing**: The data was formatted and preprocessed to ensure compatibility with the modeling techniques.
 
 ```python
-import pandas as pd
+# Example code for data preparation
 df = pd.read_csv('data.csv')
-df.head()
-# Handling missing values
-df.isna().sum()
-df.dropna(how='any', inplace=True)
+df.dropna(inplace=True)
+df.drop(['irrelevant_column'], axis=1, inplace=True)
 
-# Dropping irrelevant columns
-df.drop(['irrelevant_column1', 'irrelevant_column2'], axis=1, inplace=True)
-
-# Displaying the cleaned data
-df.head()
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-
-# Preparing the data
-X = df.drop('rating', axis=1)
-y = df['rating']
-
-# Splitting the dataset
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-# Training the RandomForest model
-rf_classifier = RandomForestClassifier(random_state=42)
-rf_classifier.fit(X_train, y_train)
-from sklearn.metrics import accuracy_score
-
-# Predicting and evaluating the model
-y_pred = rf_classifier.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred)
-print(f"Accuracy: {accuracy:.2%}")
-
-## Conclusion
-
-The achieved accuracy was 75.71%, indicating that the model is reasonably good at predicting recipe ratings. However, there is room for improvement, possibly through further parameter tuning, feature engineering, or experimenting with different models.
-
-The RandomForestClassifier model demonstrated a significant level of accuracy in predicting recipe ratings. Future work could include exploring other model parameters, enhancing feature selection, or testing different machine learning algorithms to improve the prediction accuracy.
