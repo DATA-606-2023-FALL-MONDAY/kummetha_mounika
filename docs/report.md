@@ -228,7 +228,7 @@ Key features and predictors that will be used in the machine learning models for
 - **Historical Interaction Data:** Past user interactions including ratings, reviews, and other forms of engagement with recipes. This data helps in understanding user preferences and improving the accuracy of the recommendation system.
 
 
-# Exploratory Data Analysis (EDA) - Recipe Dataset
+# 4. Exploratory Data Analysis (EDA) - Recipe Dataset
 
 This document presents a detailed Exploratory Data Analysis (EDA) on a dataset related to recipes. The EDA aims to uncover insights that can aid in enhancing a recipe recommendation system.
 
