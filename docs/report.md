@@ -248,7 +248,7 @@ This document presents a detailed Exploratory Data Analysis (EDA) on a dataset r
 ### Distribution Analysis
 - Examination of the distribution of crucial variables like recipe ratings and preparation time.
 
-![Distribution Analysis](https://github.com/mounikakummetha/images)
+![Distribution Analysis](https://github.com/mounikakummetha/images/blob/main/distribution_analysis.png)
 
 ## Data Visualization
 
