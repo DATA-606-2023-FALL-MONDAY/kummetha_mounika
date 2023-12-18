@@ -292,3 +292,19 @@ This document presents a detailed Exploratory Data Analysis (EDA) on a dataset r
 
 This EDA provides valuable insights into user behavior and preferences in relation to recipes. These findings will significantly contribute to the development of a personalized and efficient recipe recommendation system.
 
+#5. Model Training
+
+# Recipe Rating Prediction Model
+
+## Overview
+
+This project aims to develop a machine learning model to predict the ratings of recipes. The dataset includes various attributes such as preparation time, contributor details, and nutritional information. Our goal is to use these features to accurately forecast recipe ratings.
+
+## Data Loading and Exploration
+
+Initially, we loaded the dataset into a pandas DataFrame to explore its structure and contents. This step is crucial for understanding the data we're working with.
+
+```python
+import pandas as pd
+df = pd.read_csv('data.csv')
+df.head()
