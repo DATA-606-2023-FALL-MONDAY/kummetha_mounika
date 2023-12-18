@@ -337,8 +337,8 @@ y_pred = rf_classifier.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy:.2%}")
 
-The achieved accuracy was 75.71%, indicating that the model is reasonably good at predicting recipe ratings. However, there is room for improvement, possibly through further parameter tuning, feature engineering, or experimenting with different models.
-
 ## Conclusion
+
+The achieved accuracy was 75.71%, indicating that the model is reasonably good at predicting recipe ratings. However, there is room for improvement, possibly through further parameter tuning, feature engineering, or experimenting with different models.
 
 The RandomForestClassifier model demonstrated a significant level of accuracy in predicting recipe ratings. Future work could include exploring other model parameters, enhancing feature selection, or testing different machine learning algorithms to improve the prediction accuracy.
