@@ -6,7 +6,6 @@
 - [Linkedin](https://www.linkedin.com/in/mounika-kummetha-546212211?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
 - [Presentation](https://docs.google.com/presentation/d/11z2MgFdl-M1OcHvvTpfyTbQWz0W1dVgsHqkfJqaES3Q/edit#slide=id.p)
 - [Presentation Video Link](https://youtu.be/Ci1H7cPZtIw) 
--
 
 
 ## 2. Background
